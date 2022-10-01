@@ -1,0 +1,71 @@
+
+body {
+    /* display: flex;
+padding-left: 450px;
+justify-content: center; */
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(15, 13, 52, 1) 1%, rgba(14, 14, 80, 1) 49%, rgba(0, 212, 255, 1) 99%);
+    ;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.hours {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 23%;
+    align-items: center;
+    height: 100%;
+}
+
+
+.hour,
+.second {
+    font-size: 100px;
+    margin-right: 40px;
+    color: white;
+    margin-left: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.minut {
+    color: white;
+    font-size: 100px;
+}
+.budulnik{
+    position: relative;
+   text-align: center;
+}
+input{
+    height: 200px;
+    font-size: 100px;
+    width: 200px;
+    outline: none;
+    text-align: center;
+    border-radius: 14px;
+    font-style: italic;
+}
+
+.buttons{
+    text-align: center;
+
+}
+#button{
+    background-color: red;
+    color: white;
+    height: 40px;
+    width: 200px;
+    border-radius: 15px;
+}
+#button2{
+    background-color: orange;
+    color: white;
+    height: 40px;
+    width: 200px;
+    border-radius: 15px;
+}

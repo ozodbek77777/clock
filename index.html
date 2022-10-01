@@ -1,47 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="stylesheet" href="./style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <div class="hours">
-    <div class="hour"></div>
-    <div class="minut"></div>
-    <div class="second"></div>
+        <div class="hour"></div>
+        <div class="minut"></div>
+        <div class="second"></div>
     </div>
-<style>
-    body{
-        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(15,13,52,1) 1%, rgba(14,14,80,1) 49%, rgba(0,212,255,1) 99%);;
-    }
-    .hours{
-        display: flex;
-        justify-content: center;
-         margin-top: 20%;
-         align-items: center;
-        height: 100%;
-    }
-    div{
-        font-size: 3em;
-    }
-    .hour,
-    .second{
-        margin-right: 40px;
-        color: white;
-        margin-left:40px;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .minut{
-        color: white;
-    }
-</style>
+
+   
+ <div class="banan">
+
+    </div>
+    <div class="budulnik">
+    <input type="number" id="input" min="0" ng-model="number" onKeyPress="if(this.value.length==2) return false;">
+    <input  id="btn" type="number"onKeyPress="if(this.value.length==2) return false;">
+    <input id="btn2" type="number" onKeyPress="if(this.value.length==2) return false;">
+    </div>
+    <audio id="audio">
+        <source src="./eminem/ONG BAK (Eminem - Till Collapse).mp3">
+    </audio>
+    <div class="buttons">
+   <button id="button">STOP</button>
+   <button id="button2">AFTER PLAY</button>
+    </div>
+    
 
 
     <script src="./script.js"></script>
 </body>
+
 </html>
